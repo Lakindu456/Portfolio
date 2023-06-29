@@ -68,7 +68,7 @@ function sendmail(){
       text: "You haven't entered a Message",
     })
   } else {
-    window.open('mailto:sarith.20210010@iit.ac.lk?subject='+subject+'&body='+message);
+    window.open('mailto:lakindu.20210887@iit.ac.lk?subject='+subject+'&body='+message);
     Swal.fire(
       'Thank You!',
       "I'll reach out to you soon!",

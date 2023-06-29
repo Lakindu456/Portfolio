@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Lakindu Indipa</title>
+        <link rel="icon" type="image/png" href="images/logo.png"/>
+        <link rel="stylesheet" href="stylesheet.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body> 
+        <div id="body-container">
+            <!--Nav Bar-->
+            <section id="nav-bar">
+                <nav class="nav-menu-container">
+                    <div class="logo">
+                        <h4>Lakindu</h4>
+                    </div>
+                    <ul class="nav-links">
+                        <li class="active"><a onclick="topFunction()" href="#home">Home</a></li>
+                        <li class=""><a href="#about">About</a></li>
+                        <li class=""><a href="#projects">Projects</a></li>
+                        <li class=""><a href="#contact">Contact</a></li>
+                    </ul>
+                    <div class="burger">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                    </div>
+                </nav>
+            </section>
+            
+            <div id="container-1">
+                <!--Landing Text-->
+                <section id="home">
+                    <div class="h-screen flex items-center justify-center">
+                        <div class="row container-lg">
+                            <div class="col-md landing-text">
+                                <h1 data-aos="fade-down" class="text-5xl text-white text-center"><span class="rockwell-font">Hey there!</span><br>I'm <b><span class="highlight">Lakindu</span> Indipa</b></h1>
+                                <h1 data-aos="fade-down" class="text-2xl text-white" id="writer-text"></h1>
+                                <div class="col-md text-center">
+                                    <form target="_blank" action="files/Sarith_Wijesundera_CV.pdf" method="get">
+                                        <button data-aos="fade-up" class="btn btn-warning" title="Download My CV"><i class="fa-solid fa-download"></i> Download My CV</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div id="container-2">
+                <!--About Me-->
+                <section id="about">
+                    <div class="container my-5">
+                        <div class="row">
+                            <div id="nets" class="col-md">
+                                <img data-aos="fade-right" class="mx-auto" src="images/lakindu-1.png" alt="Sarith Image">
+                            </div>
+                            <div  class="col-md">
+                                <br>
+                                <h1 data-aos="fade-down" class="text-5xl text-white text-center"><b>About Me</b></h1> <br>
+                                <p data-aos="fade-down" class="text-white text-justify mx-auto">I am an <span class="highlight">21 years old</span> second-year software engineering <span class="highlight">undergraduate</span> at <span class="highlight">Informatics Institute of technology (IIT)</span> with a strong passion for technology and its potential to solve real-world problems. I have a good understanding of software development methodologies and object-oriented concepts with a solid foundation in programming languages such as <span class="highlight">Java, Python, Dart, web development languages</span> and many other tools and technologies. To keep my skills and knowledge up to speed with the latest technological developments, I am always eager to <span class="highlight">learn new things</span> and gain experience. I am a <span class="highlight">quick learner</span> and a <span class="highlight">team player</span> with a can-do attitude. I am actively seeking internship opportunities to gain hands-on experience in the industry and to further develop my skills. I am excited to continue to learn and grow in the field of software engineering, and I am confident that my <span class="highlight">technical skills</span> and <span class="highlight">enthusiasm</span> will make me <span class="highlight">a valuable asset</span> to any organization.</p>
+                                <div data-aos="fade-up" class="text-center mt-3">
+                                    <a href="https://www.linkedin.com/in/lakinduindipa/" target="_blank" title="LinkedIn"><button class="btn btn-warning p-1.5 mr-2"><i class="fa-brands fa-linkedin-in fa-xl"></i></button></a>
+                                    <a href="https://github.com/Lakindu456" target="_blank" title="GitHub"><button class="btn btn-warning p-1.5 mr-2"><i class="fa-brands fa-github fa-xl"></i></button></a>
+                                    <a href="https://web.facebook.com/profile.php?id=100056839206442" target="_blank" title="Facebook"><button class="btn btn-warning p-1.5 mr-2 px-2.5"><i class="fa-brands fa-facebook-f fa-xl"></i></button></a>
+                                    <a href="https://www.instagram.com/_lakindu_kz_/" target="_blank" title="Instagram"><button class="btn btn-warning p-1.5 mr-2"><i class="fa-brands fa-instagram fa-xl"></i></button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!--Projects-->
+                <section id="projects" class="my-32">
+                    <div class="container">
+                        <div class="row">
+                            <h2 data-aos="fade-down" class="text-5xl text-white text-center mb-5"><b>Projects</b></h2>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <!--1st row-->
+                        <div class="row">
+                            <div class="col-md">
+                                <div data-aos="fade-up" class="flip-card mx-auto mb-5">
+                                    <div class="flip-card-inner">
+                                        <div class="flip-card-front">
+                                            <img src="images/project1.png" alt="Project 1" style="width:300px;height:300px;">
+                                            <h1 class="centered text-white rockwell-font px-2">"ARchitect" Mobile Application</h1>
+                                        </div>
+                                        <div class="flip-card-back">
+                                            <h1 class="font-bold mt-4">"SKEEN" Mobile Application</h1> 
+                                            <p class="mx-1 mt-4">A mobile application designed to prevent the inconveniences caused by skin diseases and wrong remedies in the body. it was
+                                                The aim of this project is to educate them about the health of their skin and give them a correct understanding of skin diseases..</p>
+                                            <a href="https://github.com/Lakindu456/Skeen" target="_blank" title="View the project"><button class="btn btn-warning p-0.5 my-1"><i class="fa-solid fa-link"></i></button></a>
+                                            <br>
+                                            <div class="rows">
+                                                <div class="column-3">
+                                                    <a href="https://flutter.dev/" target="_blank" title="Flutter"><img class="responsive my-2" src="images/flutter.png" alt="flutter icon"></a>
+                                                </div>
+                                                <div class="column-3">
+                                                    <a href="https://dart.dev/" target="_blank" title="Dart"><img class="responsive" src="images/dart.png" alt="dart icon"></a>
+                                                </div>
+                                                <div class="column-3">
+                                                    <a href="https://www.tensorflow.org/" target="_blank" title="Tensorflow"><img class="responsive" src="images/tensorflow.png" alt="tensorflow icon"></a>
+                                                </div>      
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md">
+                                <div data-aos="fade-up" class="flip-card mx-auto mb-5">
+                                    <div class="flip-card-inner">
+                                        <div class="flip-card-front">
+                                            <img src="images/project2.png" alt="Project 2" style="width:300px;height:300px;">
+                                            <h1 class="centered text-white rockwell-font px-2">Skin Care Management System</h1>
+                                        </div>
+                                        <div class="flip-card-back">
+                                            <h1 class="font-bold my-4">Skin Care Management System</h1> 
+                                            <p class="mx-1">A Skin Consultation System which can manage doctors, patients, and consultations through the console and a Graphical User Interface using Java OOP Concepts.</p> 
+                                            <a href="https://github.com/Lakindu456/Skin-Care-Management-System" target="_blank" title="View the project"><button class="btn btn-warning p-0.5 my-1"><i class="fa-solid fa-link"></i></button></a>
+                                            <br>
+                                            <div class="rows">
+                                                <div class="column-2">
+                                                    <a href="https://www.java.com/en/" target="_blank" title="Java"><img class="responsive" src="images/java.png" alt="java icon"></a>
+                                                </div>
+                                                <div class="column-2">
+                                                    <a href="https://docs.oracle.com/javase/8/docs/api/index.html?javax/swing/package-summary.html" target="_blank" title="Java Swing"><img class="responsive mt-2" src="images/java-swing.png" alt="java swing icon"></a>
+                                                </div>     
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md">
+                                <div data-aos="fade-up" class="flip-card mx-auto mb-5">
+                                    <div class="flip-card-inner">
+                                        <div class="flip-card-front">
+                                            <img src="images/project3.png" alt="Project 3" style="width:300px;height:300px;">
+                                            <h1 class="centered text-white rockwell-font px-2">Algorithms-Individual-Project</h1>
+                                        </div>
+                                        <div class="flip-card-back">
+                                            <h1 class="font-bold my-4">Algorithms-Individual-Project</h1> 
+                                            <p class="mx-1">Checking acyclicity of directed graphs</p> 
+                                            <a href="https://github.com/Lakindu456/Algorithms-Individual-Project" target="_blank" title="View the project"><button class="btn btn-warning p-0.5 my-1"><i class="fa-solid fa-link"></i></button></a>
+                                            <br>
+                                            <div class="rows">
+                                                <div class="column-2">
+                                                    <a href="https://html-css-js.com/" target="_blank" title="HTML-CSS-JS"><img class="responsive ml-4" src="images/java.png" alt="java icons"></a>
+                                                </div>      
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--2nd row-->
+                        <div class="row">
+                            <div class="col-md">
+                                <div data-aos="fade-up" class="flip-card mx-auto mb-5">
+                                    <div class="flip-card-inner">
+                                        <div class="flip-card-front">
+                                            <img src="images/project4.png" alt="Project 4" style="width:300px;height:300px;">
+                                            <h1 class="centered text-white rockwell-font px-2">Fuel Queue Management System</h1>
+                                        </div>
+                                        <div class="flip-card-back">
+                                            <h1 class="font-bold my-4">Fuel Queue Management System</h1> 
+                                            <p class="mx-1">A Java program with OOP concepts to manage fuel queues with a Graphical User Interface.</p> 
+                                            <a href="https://github.com/Lakindu456/Fuel-Queue-Management-System" target="_blank" title="View the project"><button class="btn btn-warning p-0.5 my-1"><i class="fa-solid fa-link"></i></button></a>
+                                            <br>
+                                            <div class="rows">
+                                                <div class="column-2">
+                                                    <a href="https://www.java.com/en/" target="_blank" title="Java"><img class="responsive mt-4" src="images/java.png" alt="java icon"></a>
+                                                </div>
+                                                <div class="column-2">
+                                                    <a href="https://openjfx.io/" target="_blank" title="Java FX"><img class="responsive mt-3" src="images/javafx.png" alt="java-fx icon"></a>
+                                                </div>        
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md">
+                                <div data-aos="fade-up" class="flip-card mx-auto mb-5">
+                                    <div class="flip-card-inner">
+                                        <div class="flip-card-front">
+                                            <img src="images/project5.png" alt="Project 5" style="width:300px;height:300px;">
+                                            <h1 class="centered text-white rockwell-font px-2">Minions</h1>
+                                        </div>
+                                        <div class="flip-card-back">
+                                            <h1 class="font-bold my-4">Minions</h1> 
+                                            <p class="mx-1">Designed and developed a Entertaining website.</p> 
+                                            <a href="https://github.com/Lakindu456/Minions" target="_blank" title="View the project"><button class="btn btn-warning p-0.5 my-1"><i class="fa-solid fa-link"></i></button></a>
+                                            <br>
+                                            <div class="rows">
+                                                <div class="column-1">
+                                                    <a href="https://html-css-js.com/" target="_blank" title="HTML-CSS-JS"><img class="responsive" src="images/html-css-js.png" alt="html-css-js icons"></a>
+                                                </div>     
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md">
+                                <div data-aos="fade-up" class="flip-card mx-auto mb-5">
+                                    <div class="flip-card-inner">
+                                        <div class="flip-card-front">
+                                            <img src="images/project6.png" alt="Project 6" style="width:300px;height:300px;">
+                                            <h1 class="centered text-white rockwell-font px-2">Machine_Learning-Data-Mining</h1>
+                                        </div>
+                                        <div class="flip-card-back">
+                                            <h1 class="font-bold my-4">Machine_Learning-Data-Mining</h1> 
+                                            <p class="mx-1">I consider a series of observations of a number of silhouettes related to different types of vehicles using a set of features extracted from the silhouette.</p> 
+                                            <a href="https://github.com/Lakindu456/Machine_Learning-Data-Mining" target="_blank" title="View the project"><button class="btn btn-warning p-0.5 my-1"><i class="fa-solid fa-link"></i></button></a>
+                                            <br>
+                                            <div class="rows">
+                                                <div class="column-1">
+                                                    <a href="https://www.python.org/" target="_blank" title="Python"><img class="responsive ml-3" src="images/R.png" alt="r icon"></a>
+                                                </div>     
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!--Contact Me-->
+                <section id="contact" class="my-32">
+                    <div class="container">
+                        <div class="row">
+                            <h2 data-aos="fade-down" class="text-5xl text-white text-center mb-5"><b>Contact Me</b></h2>
+                        </div>
+                    </div>
+
+                    <div data-aos="fade-up" class="container offset-md-2">
+                        <div class="row contact-container">
+                            <div class="col-sm-3 col-md-6 col-lg-3 left-container px-3">
+                                <h1 class="text-center font-bold mt-4 text-3xl rockwell-font">Contact</h1>
+                                <div class="contact-info text-center">
+                                    <br> 
+                                    <i class="fa-solid fa-phone"></i> &nbsp;&nbsp;<a href="tel:+94-76-459-5796">+94-76-459-5796</a>
+                                    <br> <br>
+                                    <i class="fa-solid fa-envelope"></i> &nbsp;&nbsp;<a href="mailto:lakindu.20210887@iit.ac.lk">lakindu.20210887@iit.ac.lk</a>
+                                    <br> <br>
+                                    <i class="fa-sharp fa-solid fa-location-dot"></i> &nbsp;&nbsp;&nbsp;Matara, Sri Lanka
+                                    <div data-aos="fade-up" class="text-center my-4">
+                                        <a href="https://www.linkedin.com/in/lakinduindipa/" target="_blank" title="LinkedIn"><button class="btn btn-warning p-1.5 mr-2" style="background-color: rgb(0, 0, 52)" onmouseout="this.style.backgroundColor='rgb(0, 0, 52)'" onmouseover="this.style.backgroundColor='rgb(0, 0, 150)'"><i class="fa-brands fa-linkedin-in fa-xl" style="color: #ffffff;"></i></button></a>
+                                        <a href="https://github.com/Lakindu456" target="_blank" title="GitHub"><button class="btn btn-warning p-1.5 mr-2" style="background-color: rgb(0, 0, 52)" onmouseout="this.style.backgroundColor='rgb(0, 0, 52)'" onmouseover="this.style.backgroundColor='rgb(0, 0, 150)'"><i class="fa-brands fa-github fa-xl" style="color: #ffffff;" ></i></button></a>
+                                        <a href="https://www.facebook.com/profile.php?id=100056839206442" target="_blank" title="Facebook"><button class="btn btn-warning p-1.5 mr-2 px-2.5" style="background-color: rgb(0, 0, 52)" onmouseout="this.style.backgroundColor='rgb(0, 0, 52)'" onmouseover="this.style.backgroundColor='rgb(0, 0, 150)'"><i class="fa-brands fa-facebook-f fa-xl" style="color: #ffffff;"></i></button></a>
+                                        <a href="https://www.instagram.com/_lakindu_kz_/" target="_blank" title="Instagram"><button class="btn btn-warning p-1.5 mr-2" style="background-color: rgb(0, 0, 52)" onmouseout="this.style.backgroundColor='rgb(0, 0, 52)'" onmouseover="this.style.backgroundColor='rgb(0, 0, 150)'"><i class="fa-brands fa-instagram fa-xl" style="color: #ffffff;"></i></button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-9 col-md-6 col-lg-6 right-container">
+                                <h1 class="text-center text-white font-bold mt-4 text-3xl rockwell-font">Get in Touch</h1>
+                                <div class="form-container p-5">
+                                    <form id="contact-form" action="mailto:lakindu.20210887@iit.ac.lk" method="post" enctype="text/plain" onsubmit="event.preventDefault();">
+                                        <input id="email" class="user-email" type="email" placeholder="Enter your email" required>
+                                        <input id="subject" class="user-subject" type="text" placeholder="Enter the subject" required>
+                                        <textarea id="message" class="user-message" placeholder="Enter your message" required></textarea>
+                                        <div class="user-submit text-center mt-3">
+                                            <input data-aos="fade-up"  id="send" class="px-2" type="submit" value="Send" title="Send your message" onclick="sendmail()">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!--Footer-->
+                <section id="footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md">
+                                <h1 class="text-center my-2 rockwell-font">©Copyright <b>Lakindu Indipa</b> | All Rights Reserved</h1>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <button onclick="topFunction()" class="btn btn-warning" id="top-btn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
+    </body>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://kit.fontawesome.com/c0739b4840.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.24/dist/vanta.dots.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.24/dist/vanta.net.min.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        VANTA.DOTS({
+          el: "#container-1",
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: true,
+          minHeight: 200.00,
+          minWidth: 200.00,
+          scale: 1.00,
+          scaleMobile: 1.00,
+          color: 0xac9d00,
+          backgroundColor: 0x37,
+          showLines: false
+        })
+    </script>
+    <script>
+        VANTA.NET({
+        el: "#nets",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: true,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        color: 0xac9d00,
+        backgroundColor: 0x33,
+        spacing: 19.00
+        })
+    </script>
+</html>
+
